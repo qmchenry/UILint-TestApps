@@ -20,8 +20,8 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         guard let _ = (scene as? UIWindowScene) else { return }
         UILint.register(window: window)
 
-        QAConfig.shared.expectedFontNames = [".SFUI-Regular", "Futura-Medium", "Futura-Bold", "Futura-MediumItalic" ]
-//        QAConfig.shared.excludedChecks = [LabelUnexpectedFont.self]
+        UILintConfig.shared.expectedFontNames = [".SFUI-Regular", "Futura-Medium", "Futura-Bold", "Futura-MediumItalic" ]
+//        UILintConfig.shared.excludedChecks = [LabelUnexpectedFont.self]
     }
 
     func sceneDidDisconnect(_ scene: UIScene) {

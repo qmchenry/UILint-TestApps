@@ -9,12 +9,6 @@
 /* Begin PBXBuildFile section */
 		A90E0203247F2516003C3CA1 /* UILint in Frameworks */ = {isa = PBXBuildFile; productRef = A90E0202247F2516003C3CA1 /* UILint */; };
 		A9F7566F2481B30500CA2C40 /* TouchyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9F7566E2481B30500CA2C40 /* TouchyView.swift */; };
-		A9F756772485ED2B00CA2C40 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9F756762485ED2B00CA2C40 /* AppDelegate.swift */; };
-		A9F756792485ED2B00CA2C40 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9F756782485ED2B00CA2C40 /* ViewController.swift */; };
-		A9F7567B2485ED2D00CA2C40 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9F7567A2485ED2D00CA2C40 /* Assets.xcassets */; };
-		A9F7567E2485ED2D00CA2C40 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9F7567C2485ED2D00CA2C40 /* Main.storyboard */; };
-		A9F7568A2485ED2D00CA2C40 /* LintyMacDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9F756892485ED2D00CA2C40 /* LintyMacDemoTests.swift */; };
-		A9F756952485ED2D00CA2C40 /* LintyMacDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9F756942485ED2D00CA2C40 /* LintyMacDemoUITests.swift */; };
 		A9F756A1248826D900CA2C40 /* Spirit Ginger.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A9F756A0248826D800CA2C40 /* Spirit Ginger.ttf */; };
 		A9F847D22478433200CE37CE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9F847D12478433200CE37CE /* AppDelegate.swift */; };
 		A9F847D42478433200CE37CE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9F847D32478433200CE37CE /* SceneDelegate.swift */; };
@@ -27,20 +21,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		A9F756862485ED2D00CA2C40 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = A9F847C62478433200CE37CE /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = A9F756732485ED2B00CA2C40;
-			remoteInfo = LintyMacDemo;
-		};
-		A9F756912485ED2D00CA2C40 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = A9F847C62478433200CE37CE /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = A9F756732485ED2B00CA2C40;
-			remoteInfo = LintyMacDemo;
-		};
 		A9F847E52478433300CE37CE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = A9F847C62478433200CE37CE /* Project object */;
@@ -60,19 +40,6 @@
 /* Begin PBXFileReference section */
 		A90E0201247F24F5003C3CA1 /* UILint */ = {isa = PBXFileReference; lastKnownFileType = folder; name = UILint; path = ../../UILint; sourceTree = "<group>"; };
 		A9F7566E2481B30500CA2C40 /* TouchyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouchyView.swift; sourceTree = "<group>"; };
-		A9F756742485ED2B00CA2C40 /* LintyMacDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LintyMacDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		A9F756762485ED2B00CA2C40 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A9F756782485ED2B00CA2C40 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		A9F7567A2485ED2D00CA2C40 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		A9F7567D2485ED2D00CA2C40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		A9F7567F2485ED2D00CA2C40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A9F756802485ED2D00CA2C40 /* LintyMacDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = LintyMacDemo.entitlements; sourceTree = "<group>"; };
-		A9F756852485ED2D00CA2C40 /* LintyMacDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LintyMacDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		A9F756892485ED2D00CA2C40 /* LintyMacDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LintyMacDemoTests.swift; sourceTree = "<group>"; };
-		A9F7568B2485ED2D00CA2C40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A9F756902485ED2D00CA2C40 /* LintyMacDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LintyMacDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		A9F756942485ED2D00CA2C40 /* LintyMacDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LintyMacDemoUITests.swift; sourceTree = "<group>"; };
-		A9F756962485ED2D00CA2C40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A9F756A0248826D800CA2C40 /* Spirit Ginger.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Spirit Ginger.ttf"; sourceTree = "<group>"; };
 		A9F847CE2478433200CE37CE /* LintyUIKitDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LintyUIKitDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9F847D12478433200CE37CE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -91,27 +58,6 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		A9F756712485ED2B00CA2C40 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A9F756822485ED2D00CA2C40 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A9F7568D2485ED2D00CA2C40 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		A9F847CB2478433200CE37CE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -145,46 +91,12 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		A9F756752485ED2B00CA2C40 /* LintyMacDemo */ = {
-			isa = PBXGroup;
-			children = (
-				A9F756762485ED2B00CA2C40 /* AppDelegate.swift */,
-				A9F756782485ED2B00CA2C40 /* ViewController.swift */,
-				A9F7567A2485ED2D00CA2C40 /* Assets.xcassets */,
-				A9F7567C2485ED2D00CA2C40 /* Main.storyboard */,
-				A9F7567F2485ED2D00CA2C40 /* Info.plist */,
-				A9F756802485ED2D00CA2C40 /* LintyMacDemo.entitlements */,
-			);
-			path = LintyMacDemo;
-			sourceTree = "<group>";
-		};
-		A9F756882485ED2D00CA2C40 /* LintyMacDemoTests */ = {
-			isa = PBXGroup;
-			children = (
-				A9F756892485ED2D00CA2C40 /* LintyMacDemoTests.swift */,
-				A9F7568B2485ED2D00CA2C40 /* Info.plist */,
-			);
-			path = LintyMacDemoTests;
-			sourceTree = "<group>";
-		};
-		A9F756932485ED2D00CA2C40 /* LintyMacDemoUITests */ = {
-			isa = PBXGroup;
-			children = (
-				A9F756942485ED2D00CA2C40 /* LintyMacDemoUITests.swift */,
-				A9F756962485ED2D00CA2C40 /* Info.plist */,
-			);
-			path = LintyMacDemoUITests;
-			sourceTree = "<group>";
-		};
 		A9F847C52478433200CE37CE = {
 			isa = PBXGroup;
 			children = (
 				A9F847D02478433200CE37CE /* LintyUIKitDemo */,
 				A9F847E72478433400CE37CE /* LintyUIKitDemoTests */,
 				A9F847F22478433400CE37CE /* LintyUIKitDemoUITests */,
-				A9F756752485ED2B00CA2C40 /* LintyMacDemo */,
-				A9F756882485ED2D00CA2C40 /* LintyMacDemoTests */,
-				A9F756932485ED2D00CA2C40 /* LintyMacDemoUITests */,
 				A9F847CF2478433200CE37CE /* Products */,
 				A90E01F5247EBED9003C3CA1 /* Frameworks */,
 			);
@@ -196,9 +108,6 @@
 				A9F847CE2478433200CE37CE /* LintyUIKitDemo.app */,
 				A9F847E42478433300CE37CE /* LintyUIKitDemoTests.xctest */,
 				A9F847EF2478433400CE37CE /* LintyUIKitDemoUITests.xctest */,
-				A9F756742485ED2B00CA2C40 /* LintyMacDemo.app */,
-				A9F756852485ED2D00CA2C40 /* LintyMacDemoTests.xctest */,
-				A9F756902485ED2D00CA2C40 /* LintyMacDemoUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -240,59 +149,6 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A9F756732485ED2B00CA2C40 /* LintyMacDemo */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = A9F7569D2485ED2D00CA2C40 /* Build configuration list for PBXNativeTarget "LintyMacDemo" */;
-			buildPhases = (
-				A9F756702485ED2B00CA2C40 /* Sources */,
-				A9F756712485ED2B00CA2C40 /* Frameworks */,
-				A9F756722485ED2B00CA2C40 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = LintyMacDemo;
-			productName = LintyMacDemo;
-			productReference = A9F756742485ED2B00CA2C40 /* LintyMacDemo.app */;
-			productType = "com.apple.product-type.application";
-		};
-		A9F756842485ED2D00CA2C40 /* LintyMacDemoTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = A9F7569E2485ED2D00CA2C40 /* Build configuration list for PBXNativeTarget "LintyMacDemoTests" */;
-			buildPhases = (
-				A9F756812485ED2D00CA2C40 /* Sources */,
-				A9F756822485ED2D00CA2C40 /* Frameworks */,
-				A9F756832485ED2D00CA2C40 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				A9F756872485ED2D00CA2C40 /* PBXTargetDependency */,
-			);
-			name = LintyMacDemoTests;
-			productName = LintyMacDemoTests;
-			productReference = A9F756852485ED2D00CA2C40 /* LintyMacDemoTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		A9F7568F2485ED2D00CA2C40 /* LintyMacDemoUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = A9F7569F2485ED2D00CA2C40 /* Build configuration list for PBXNativeTarget "LintyMacDemoUITests" */;
-			buildPhases = (
-				A9F7568C2485ED2D00CA2C40 /* Sources */,
-				A9F7568D2485ED2D00CA2C40 /* Frameworks */,
-				A9F7568E2485ED2D00CA2C40 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				A9F756922485ED2D00CA2C40 /* PBXTargetDependency */,
-			);
-			name = LintyMacDemoUITests;
-			productName = LintyMacDemoUITests;
-			productReference = A9F756902485ED2D00CA2C40 /* LintyMacDemoUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 		A9F847CD2478433200CE37CE /* LintyUIKitDemo */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = A9F847F82478433400CE37CE /* Build configuration list for PBXNativeTarget "LintyUIKitDemo" */;
@@ -300,6 +156,7 @@
 				A9F847CA2478433200CE37CE /* Sources */,
 				A9F847CB2478433200CE37CE /* Frameworks */,
 				A9F847CC2478433200CE37CE /* Resources */,
+				A9F756B9248AD2C700CA2C40 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -359,17 +216,6 @@
 				LastUpgradeCheck = 1150;
 				ORGANIZATIONNAME = "Quinn McHenry";
 				TargetAttributes = {
-					A9F756732485ED2B00CA2C40 = {
-						CreatedOnToolsVersion = 11.5;
-					};
-					A9F756842485ED2D00CA2C40 = {
-						CreatedOnToolsVersion = 11.5;
-						TestTargetID = A9F756732485ED2B00CA2C40;
-					};
-					A9F7568F2485ED2D00CA2C40 = {
-						CreatedOnToolsVersion = 11.5;
-						TestTargetID = A9F756732485ED2B00CA2C40;
-					};
 					A9F847CD2478433200CE37CE = {
 						CreatedOnToolsVersion = 11.5;
 					};
@@ -401,37 +247,11 @@
 				A9F847CD2478433200CE37CE /* LintyUIKitDemo */,
 				A9F847E32478433300CE37CE /* LintyUIKitDemoTests */,
 				A9F847EE2478433400CE37CE /* LintyUIKitDemoUITests */,
-				A9F756732485ED2B00CA2C40 /* LintyMacDemo */,
-				A9F756842485ED2D00CA2C40 /* LintyMacDemoTests */,
-				A9F7568F2485ED2D00CA2C40 /* LintyMacDemoUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		A9F756722485ED2B00CA2C40 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A9F7567B2485ED2D00CA2C40 /* Assets.xcassets in Resources */,
-				A9F7567E2485ED2D00CA2C40 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A9F756832485ED2D00CA2C40 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A9F7568E2485ED2D00CA2C40 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		A9F847CC2478433200CE37CE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -459,32 +279,27 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		A9F756B9248AD2C700CA2C40 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "dir ../..\nif which swiftlint >/dev/null; then\n  swiftlint --path ../../UILint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
-		A9F756702485ED2B00CA2C40 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A9F756792485ED2B00CA2C40 /* ViewController.swift in Sources */,
-				A9F756772485ED2B00CA2C40 /* AppDelegate.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A9F756812485ED2D00CA2C40 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A9F7568A2485ED2D00CA2C40 /* LintyMacDemoTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A9F7568C2485ED2D00CA2C40 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A9F756952485ED2D00CA2C40 /* LintyMacDemoUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		A9F847CA2478433200CE37CE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -515,16 +330,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		A9F756872485ED2D00CA2C40 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = A9F756732485ED2B00CA2C40 /* LintyMacDemo */;
-			targetProxy = A9F756862485ED2D00CA2C40 /* PBXContainerItemProxy */;
-		};
-		A9F756922485ED2D00CA2C40 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = A9F756732485ED2B00CA2C40 /* LintyMacDemo */;
-			targetProxy = A9F756912485ED2D00CA2C40 /* PBXContainerItemProxy */;
-		};
 		A9F847E62478433300CE37CE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = A9F847CD2478433200CE37CE /* LintyUIKitDemo */;
@@ -538,14 +343,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		A9F7567C2485ED2D00CA2C40 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A9F7567D2485ED2D00CA2C40 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		A9F847D72478433200CE37CE /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -565,140 +362,6 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		A9F756972485ED2D00CA2C40 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = LintyMacDemo/LintyMacDemo.entitlements;
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = CZ959T86V4;
-				ENABLE_HARDENED_RUNTIME = YES;
-				INFOPLIST_FILE = LintyMacDemo/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 10.15;
-				PRODUCT_BUNDLE_IDENTIFIER = com.qmchenry.LintyMacDemo;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
-				SWIFT_VERSION = 5.0;
-			};
-			name = Debug;
-		};
-		A9F756982485ED2D00CA2C40 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = LintyMacDemo/LintyMacDemo.entitlements;
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = CZ959T86V4;
-				ENABLE_HARDENED_RUNTIME = YES;
-				INFOPLIST_FILE = LintyMacDemo/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 10.15;
-				PRODUCT_BUNDLE_IDENTIFIER = com.qmchenry.LintyMacDemo;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
-				SWIFT_VERSION = 5.0;
-			};
-			name = Release;
-		};
-		A9F756992485ED2D00CA2C40 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = CZ959T86V4;
-				INFOPLIST_FILE = LintyMacDemoTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/../Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 10.15;
-				PRODUCT_BUNDLE_IDENTIFIER = com.qmchenry.LintyMacDemoTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
-				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LintyMacDemo.app/Contents/MacOS/LintyMacDemo";
-			};
-			name = Debug;
-		};
-		A9F7569A2485ED2D00CA2C40 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = CZ959T86V4;
-				INFOPLIST_FILE = LintyMacDemoTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/../Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 10.15;
-				PRODUCT_BUNDLE_IDENTIFIER = com.qmchenry.LintyMacDemoTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
-				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LintyMacDemo.app/Contents/MacOS/LintyMacDemo";
-			};
-			name = Release;
-		};
-		A9F7569B2485ED2D00CA2C40 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = CZ959T86V4;
-				INFOPLIST_FILE = LintyMacDemoUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/../Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 10.15;
-				PRODUCT_BUNDLE_IDENTIFIER = com.qmchenry.LintyMacDemoUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
-				SWIFT_VERSION = 5.0;
-				TEST_TARGET_NAME = LintyMacDemo;
-			};
-			name = Debug;
-		};
-		A9F7569C2485ED2D00CA2C40 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = CZ959T86V4;
-				INFOPLIST_FILE = LintyMacDemoUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/../Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 10.15;
-				PRODUCT_BUNDLE_IDENTIFIER = com.qmchenry.LintyMacDemoUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
-				SWIFT_VERSION = 5.0;
-				TEST_TARGET_NAME = LintyMacDemo;
-			};
-			name = Release;
-		};
 		A9F847F62478433400CE37CE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -820,6 +483,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = CZ959T86V4;
 				INFOPLIST_FILE = LintyUIKitDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -838,6 +502,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = CZ959T86V4;
 				INFOPLIST_FILE = LintyUIKitDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -936,33 +601,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A9F7569D2485ED2D00CA2C40 /* Build configuration list for PBXNativeTarget "LintyMacDemo" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				A9F756972485ED2D00CA2C40 /* Debug */,
-				A9F756982485ED2D00CA2C40 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		A9F7569E2485ED2D00CA2C40 /* Build configuration list for PBXNativeTarget "LintyMacDemoTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				A9F756992485ED2D00CA2C40 /* Debug */,
-				A9F7569A2485ED2D00CA2C40 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		A9F7569F2485ED2D00CA2C40 /* Build configuration list for PBXNativeTarget "LintyMacDemoUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				A9F7569B2485ED2D00CA2C40 /* Debug */,
-				A9F7569C2485ED2D00CA2C40 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		A9F847C92478433200CE37CE /* Build configuration list for PBXProject "LintyUIKitDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

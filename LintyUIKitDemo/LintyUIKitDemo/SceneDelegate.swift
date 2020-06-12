@@ -21,7 +21,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         UILint.register(window: window)
 
         UILintConfig.shared.expectedFontNames = [".SFUI-Regular", "Futura-Medium", "Futura-Bold", "Futura-MediumItalic" ]
-//        UILintConfig.shared.excludedChecks = [LabelUnexpectedFont.self]
+        UILintConfig.shared.excludedChecks = [LabelVerticalClipping.self]
     }
 
     func sceneDidDisconnect(_ scene: UIScene) {

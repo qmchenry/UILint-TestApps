@@ -20,7 +20,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         guard let _ = (scene as? UIWindowScene) else { return }
         UILint.register(window: window)
 
-        UILintConfig.shared.expectedFontNames = [".SFUI-Regular", "Futura-Medium", "Futura-Bold", "Futura-MediumItalic" ]
+        UILintConfig.shared.expectedFontNames = [".SFUI-Regular", "Futura-Medium", "Futura-Bold", "Futura-MediumItalic", "SpiritGinger" ]
         UILintConfig.shared.excludedChecks = [LabelVerticalClipping.self]
     }
 

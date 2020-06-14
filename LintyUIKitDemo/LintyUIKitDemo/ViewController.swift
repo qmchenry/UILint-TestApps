@@ -24,3 +24,18 @@ class ViewController: UIViewController {
     }
 
 }
+
+// Example of excluding checks for specific view/check combinations or all checks for one view
+extension ViewController: UILintConfigurable {
+
+    func shouldLint(element: Element, check: Check.Type) -> Bool {
+        switch (element.base.tag, element.base.accessibilityIdentifier, check) {
+        // exclude all checks on single view (with tag of 10)
+        case (10, _, _): return false
+        // exclude SafeArea check on a single view (with accessibility id set
+        case (_, "You get a B label", is SafeArea.Type): return false
+        default: return true
+        }
+    }
+
+}

@@ -29,7 +29,7 @@ class ViewController: UIViewController {
 extension ViewController: UILintConfigurable {
 
     func shouldLint(element: Element, check: Check.Type) -> Bool {
-        switch (element.base.tag, element.base.accessibilityIdentifier, check) {
+        switch (element.tag, element.accessibilityIdentifier, check) {
         // exclude all checks on single view (with tag of 10)
         case (10, _, _): return false
         // exclude SafeArea check on a single view (with accessibility id set

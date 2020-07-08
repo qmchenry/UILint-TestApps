@@ -17,7 +17,7 @@ class ViewController: UIViewController {
     }
 
     func doUILint(timer: Timer) {
-        if let lint = UILint(view: view) {
+        if let lint = UILintSession(view: view) {
             let pdfData = lint.makePDF()
             try? pdfData.write(to: URL(fileURLWithPath: "/tmp/test.pdf"))
         }

@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		A90E0203247F2516003C3CA1 /* UILint in Frameworks */ = {isa = PBXBuildFile; productRef = A90E0202247F2516003C3CA1 /* UILint */; };
+		A9E5E20024B760A500D6279F /* UILint in Frameworks */ = {isa = PBXBuildFile; productRef = A9E5E1FF24B760A500D6279F /* UILint */; };
+		A9E5E20124B761CD00D6279F /* XCTestCaseExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9E5E1FD24B7589A00D6279F /* XCTestCaseExtension.swift */; };
 		A9F7566F2481B30500CA2C40 /* TouchyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9F7566E2481B30500CA2C40 /* TouchyView.swift */; };
 		A9F756A1248826D900CA2C40 /* Spirit Ginger.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A9F756A0248826D800CA2C40 /* Spirit Ginger.ttf */; };
 		A9F847D22478433200CE37CE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9F847D12478433200CE37CE /* AppDelegate.swift */; };
@@ -39,6 +41,7 @@
 
 /* Begin PBXFileReference section */
 		A90E0201247F24F5003C3CA1 /* UILint */ = {isa = PBXFileReference; lastKnownFileType = folder; name = UILint; path = ../../UILint; sourceTree = "<group>"; };
+		A9E5E1FD24B7589A00D6279F /* XCTestCaseExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = XCTestCaseExtension.swift; path = ../../../UILint/Helpers/XCTestCaseExtension.swift; sourceTree = "<group>"; };
 		A9F7566E2481B30500CA2C40 /* TouchyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouchyView.swift; sourceTree = "<group>"; };
 		A9F756A0248826D800CA2C40 /* Spirit Ginger.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Spirit Ginger.ttf"; sourceTree = "<group>"; };
 		A9F847CE2478433200CE37CE /* LintyUIKitDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LintyUIKitDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -77,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A9E5E20024B760A500D6279F /* UILint in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,6 +145,7 @@
 			isa = PBXGroup;
 			children = (
 				A9F847F32478433400CE37CE /* LintyUIKitDemoUITests.swift */,
+				A9E5E1FD24B7589A00D6279F /* XCTestCaseExtension.swift */,
 				A9F847F52478433400CE37CE /* Info.plist */,
 			);
 			path = LintyUIKitDemoUITests;
@@ -202,6 +207,9 @@
 				A9F847F12478433400CE37CE /* PBXTargetDependency */,
 			);
 			name = LintyUIKitDemoUITests;
+			packageProductDependencies = (
+				A9E5E1FF24B760A500D6279F /* UILint */,
+			);
 			productName = LintyUIKitDemoUITests;
 			productReference = A9F847EF2478433400CE37CE /* LintyUIKitDemoUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
@@ -323,6 +331,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A9E5E20124B761CD00D6279F /* XCTestCaseExtension.swift in Sources */,
 				A9F847F42478433400CE37CE /* LintyUIKitDemoUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -643,6 +652,10 @@
 
 /* Begin XCSwiftPackageProductDependency section */
 		A90E0202247F2516003C3CA1 /* UILint */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = UILint;
+		};
+		A9E5E1FF24B760A500D6279F /* UILint */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = UILint;
 		};

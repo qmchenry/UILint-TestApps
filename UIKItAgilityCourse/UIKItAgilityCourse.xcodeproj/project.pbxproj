@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A9167D1324BCE68400523EB6 /* UILint in Frameworks */ = {isa = PBXBuildFile; productRef = A9167D1224BCE68400523EB6 /* UILint */; };
+		A9167D5124C09E5300523EB6 /* XCTestCaseExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9167D5024C09E5300523EB6 /* XCTestCaseExtension.swift */; };
 		A9E5E20F24B7F9E400D6279F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9E5E20E24B7F9E400D6279F /* AppDelegate.swift */; };
 		A9E5E21124B7F9E400D6279F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9E5E21024B7F9E400D6279F /* SceneDelegate.swift */; };
 		A9E5E21324B7F9E400D6279F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9E5E21224B7F9E400D6279F /* ViewController.swift */; };
@@ -17,7 +19,6 @@
 		A9E5E23124B7F9E500D6279F /* UIKItAgilityCourseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9E5E23024B7F9E500D6279F /* UIKItAgilityCourseUITests.swift */; };
 		A9E5E23F24B8023500D6279F /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9E5E23E24B8023500D6279F /* FirstViewController.swift */; };
 		A9E5E24124B8026900D6279F /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9E5E24024B8026900D6279F /* SecondViewController.swift */; };
-		A9E5E24424B8BA1100D6279F /* UILint in Frameworks */ = {isa = PBXBuildFile; productRef = A9E5E24324B8BA1100D6279F /* UILint */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A9167D1024BCE64800523EB6 /* UILint */ = {isa = PBXFileReference; lastKnownFileType = folder; name = UILint; path = ../../UILint; sourceTree = "<group>"; };
+		A9167D5024C09E5300523EB6 /* XCTestCaseExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XCTestCaseExtension.swift; sourceTree = "<group>"; };
 		A9E5E20B24B7F9E400D6279F /* UIKItAgilityCourse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIKItAgilityCourse.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9E5E20E24B7F9E400D6279F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A9E5E21024B7F9E400D6279F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -54,6 +57,7 @@
 		A9E5E23224B7F9E500D6279F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A9E5E23E24B8023500D6279F /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 		A9E5E24024B8026900D6279F /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		A9E5E24524B8F81C00D6279F /* TestPlan.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = TestPlan.xctestplan; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,7 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A9E5E24424B8BA1100D6279F /* UILint in Frameworks */,
+				A9167D1324BCE68400523EB6 /* UILint in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,13 +86,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A9167D1124BCE68400523EB6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		A9E5E20224B7F9E400D6279F = {
 			isa = PBXGroup;
 			children = (
+				A9E5E24524B8F81C00D6279F /* TestPlan.xctestplan */,
 				A9E5E20D24B7F9E400D6279F /* UIKItAgilityCourse */,
 				A9E5E22424B7F9E500D6279F /* UIKItAgilityCourseTests */,
 				A9E5E22F24B7F9E500D6279F /* UIKItAgilityCourseUITests */,
 				A9E5E20C24B7F9E400D6279F /* Products */,
+				A9167D1024BCE64800523EB6 /* UILint */,
+				A9167D1124BCE68400523EB6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -130,6 +144,7 @@
 		A9E5E22F24B7F9E500D6279F /* UIKItAgilityCourseUITests */ = {
 			isa = PBXGroup;
 			children = (
+				A9167D5024C09E5300523EB6 /* XCTestCaseExtension.swift */,
 				A9E5E23024B7F9E500D6279F /* UIKItAgilityCourseUITests.swift */,
 				A9E5E23224B7F9E500D6279F /* Info.plist */,
 			);
@@ -153,7 +168,7 @@
 			);
 			name = UIKItAgilityCourse;
 			packageProductDependencies = (
-				A9E5E24324B8BA1100D6279F /* UILint */,
+				A9167D1224BCE68400523EB6 /* UILint */,
 			);
 			productName = UIKItAgilityCourse;
 			productReference = A9E5E20B24B7F9E400D6279F /* UIKItAgilityCourse.app */;
@@ -227,7 +242,6 @@
 			);
 			mainGroup = A9E5E20224B7F9E400D6279F;
 			packageReferences = (
-				A9E5E24224B8BA1100D6279F /* XCRemoteSwiftPackageReference "UILint" */,
 			);
 			productRefGroup = A9E5E20C24B7F9E400D6279F /* Products */;
 			projectDirPath = "";
@@ -292,6 +306,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A9167D5124C09E5300523EB6 /* XCTestCaseExtension.swift in Sources */,
 				A9E5E23124B7F9E500D6279F /* UIKItAgilityCourseUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -610,21 +625,9 @@
 		};
 /* End XCConfigurationList section */
 
-/* Begin XCRemoteSwiftPackageReference section */
-		A9E5E24224B8BA1100D6279F /* XCRemoteSwiftPackageReference "UILint" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/qmchenry/UILint";
-			requirement = {
-				branch = main;
-				kind = branch;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
 /* Begin XCSwiftPackageProductDependency section */
-		A9E5E24324B8BA1100D6279F /* UILint */ = {
+		A9167D1224BCE68400523EB6 /* UILint */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = A9E5E24224B8BA1100D6279F /* XCRemoteSwiftPackageReference "UILint" */;
 			productName = UILint;
 		};
 /* End XCSwiftPackageProductDependency section */

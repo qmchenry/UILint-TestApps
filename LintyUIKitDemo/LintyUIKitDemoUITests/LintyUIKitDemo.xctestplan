@@ -1,0 +1,44 @@
+{
+  "configurations" : [
+    {
+      "id" : "10B3858D-9D1A-45D3-A28D-595434FF4721",
+      "name" : "Configuration 1",
+      "options" : {
+
+      }
+    },
+    {
+      "id" : "DC876A10-03A2-4FA6-BBE3-8A5C98696CAA",
+      "name" : "Configuration 2",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "codeCoverage" : false,
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:LintyUIKitDemo.xcodeproj",
+      "identifier" : "A9F847CD2478433200CE37CE",
+      "name" : "LintyUIKitDemo"
+    }
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:LintyUIKitDemo.xcodeproj",
+        "identifier" : "A9F847E32478433300CE37CE",
+        "name" : "LintyUIKitDemoTests"
+      }
+    },
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:LintyUIKitDemo.xcodeproj",
+        "identifier" : "A9F847EE2478433400CE37CE",
+        "name" : "LintyUIKitDemoUITests"
+      }
+    }
+  ],
+  "version" : 1
+}

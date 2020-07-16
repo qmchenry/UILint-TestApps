@@ -42,6 +42,7 @@
 /* Begin PBXFileReference section */
 		A90E0201247F24F5003C3CA1 /* UILint */ = {isa = PBXFileReference; lastKnownFileType = folder; name = UILint; path = ../../UILint; sourceTree = "<group>"; };
 		A9E5E1FD24B7589A00D6279F /* XCTestCaseExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = XCTestCaseExtension.swift; path = ../../../UILint/Helpers/XCTestCaseExtension.swift; sourceTree = "<group>"; };
+		A9E5E24624B8FC6200D6279F /* LintyUIKitDemo.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = LintyUIKitDemo.xctestplan; sourceTree = "<group>"; };
 		A9F7566E2481B30500CA2C40 /* TouchyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouchyView.swift; sourceTree = "<group>"; };
 		A9F756A0248826D800CA2C40 /* Spirit Ginger.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Spirit Ginger.ttf"; sourceTree = "<group>"; };
 		A9F847CE2478433200CE37CE /* LintyUIKitDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LintyUIKitDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -145,6 +146,7 @@
 			isa = PBXGroup;
 			children = (
 				A9F847F32478433400CE37CE /* LintyUIKitDemoUITests.swift */,
+				A9E5E24624B8FC6200D6279F /* LintyUIKitDemo.xctestplan */,
 				A9E5E1FD24B7589A00D6279F /* XCTestCaseExtension.swift */,
 				A9F847F52478433400CE37CE /* Info.plist */,
 			);

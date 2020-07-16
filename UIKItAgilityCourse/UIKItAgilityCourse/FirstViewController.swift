@@ -13,7 +13,10 @@ class FirstViewController: UIViewController {
         super.viewDidLoad()
         view.backgroundColor = .systemBackground
         let label = UILabel()
-        label.text = "Hello world"
+        label.font = UIFont.preferredFont(forTextStyle: .body)
+        label.text = "Hello enormous world"
+        label.adjustsFontForContentSizeCategory = true
+        label.numberOfLines = 1
         label.translatesAutoresizingMaskIntoConstraints = false
         view.addSubview(label)
         NSLayoutConstraint.activate([

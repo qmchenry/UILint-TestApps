@@ -9,57 +9,71 @@ import XCTest
 
 class UIKItAgilityCourseUITests: XCTestCase {
 
-    func testExample() throws {
-        let app = XCUIApplication()
-        app.launch()
+    let textSizes = [
+        "Default text size":
+            [],
+        "Text size XS":
+            ["-UIPreferredContentSizeCategoryName", "UICTContentSizeCategoryXS"],
+        "Text size S":
+            ["-UIPreferredContentSizeCategoryName", "UICTContentSizeCategoryS"],
+        "Text size M":
+            ["-UIPreferredContentSizeCategoryName", "UICTContentSizeCategoryM"],
+        "Text size L":
+            ["-UIPreferredContentSizeCategoryName", "UICTContentSizeCategoryL"],
+        "Text size XL":
+            ["-UIPreferredContentSizeCategoryName", "UICTContentSizeCategoryXL"],
+        "Text size XXL":
+            ["-UIPreferredContentSizeCategoryName", "UICTContentSizeCategoryXXL"],
+        "Text size XXXL":
+            ["-UIPreferredContentSizeCategoryName", "UICTContentSizeCategoryXXXL"],
+        "Text size accessibility M":
+            ["-UIPreferredContentSizeCategoryName", "UICTContentSizeCategoryAccessibilityM"],
+        "Text size accessibility L":
+            ["-UIPreferredContentSizeCategoryName", "UICTContentSizeCategoryAccessibilityL"],
+        "Text size accessibility XL":
+            ["-UIPreferredContentSizeCategoryName", "UICTContentSizeCategoryAccessibilityXL"],
+        "Text size accessibility XXL":
+            ["-UIPreferredContentSizeCategoryName", "UICTContentSizeCategoryAccessibilityXXL"],
+        "Text size accessibility XXXL":
+            ["-UIPreferredContentSizeCategoryName", "UICTContentSizeCategoryAccessibilityXXXL"],
+    ]
 
-        performUILint(app: app, attachReport: true)
-        XCTAssertUILintClean()
+    func activityFullAppTest(named: String, launchArguments: [String]) {
+        XCTContext.runActivity(named: named) { activity in
+            let app = XCUIApplication()
+            app.launchArguments = launchArguments
+            app.launch()
 
-        XCUIApplication().tabBars["Tab Bar"].buttons["Next"].tap()
-        performUILint(app: app, attachReport: true)
-        XCTAssertUILintClean()
-    }
+            activity.add(performUILint(app: app))
+            XCTAssertUILintClean()
 
-}
-
-
-
-private let uiLintSingleResultsURL = URL(fileURLWithPath: "/tmp/uilint-results.txt")
-private let uiLintSingleReportURL = URL(fileURLWithPath: "/tmp/uilint-report.pdf")
-private func uiLintSingleReportSummary() -> String {
-    (try? String(contentsOf: uiLintSingleResultsURL)) ?? ""
-}
-
-extension XCTestCase {
-
-    func performUILint(app: XCUIApplication, attachReport: Bool = false) {
-        let element = app.windows.children(matching: .other).element.children(matching: .other)
-            .element.children(matching: .other).element
-        element.tap(withNumberOfTaps: 2, numberOfTouches: 2)
-
-        let exists = NSPredicate(format: "exists == 1")
-        expectation(for: exists, evaluatedWith: app.navigationBars["UIActivityContentView"], handler: nil)
-        waitForExpectations(timeout: 50, handler: nil)
-        app.navigationBars["UIActivityContentView"].buttons["Close"].tap()
-
-        if attachReport {
-            let attachment = XCTAttachment(contentsOfFile: uiLintSingleReportURL)
-            attachment.lifetime = .keepAlways
-            add(attachment)
+            XCUIApplication().tabBars["Tab Bar"].buttons["Next"].tap()
+            activity.add(performUILint(app: app))
+            XCTAssertUILintClean()
         }
     }
 
-}
+    func activityFirstTabTest(named: String, launchArguments: [String]) {
+        XCTContext.runActivity(named: named) { activity in
+            let app = XCUIApplication()
+            app.launchArguments = launchArguments
+            app.launch()
 
-extension XCTest {
+            activity.add(performUILint(app: app))
+            XCTAssertUILintClean()
+        }
+    }
 
-    func XCTAssertUILintClean(_ message: @autoclosure () -> String = "",
-                              file: StaticString = #filePath, line: UInt = #line) {
-        let summary = uiLintSingleReportSummary()
-        let sentMessage = message()
-        let assertMessage = sentMessage == "" ? "UILint returned: \(summary)" : sentMessage
-        XCTAssert(summary == "No findings", assertMessage, file: file, line: line)
+    func testTextSizesFirstTab() throws {
+        for (name, arguments) in textSizes {
+            activityFirstTabTest(named: name, launchArguments: arguments)
+        }
+    }
+
+    func testTextSizesFullApp() throws {
+        for (name, arguments) in textSizes {
+            activityFullAppTest(named: name, launchArguments: arguments)
+        }
     }
 
 }
